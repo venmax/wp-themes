@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MxS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-30 14:06+0800\n"
+"PO-Revision-Date: 2013-12-30 14:06+0800\n"
+"Last-Translator: axiu <axiublog@gmail.com>\n"
+"Language-Team: axiu <maxlev3@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../archive.php:12
+#: ../category.php:15
+#: ../content.php:7
+#: ../image.php:17
+#: ../search.php:13
+#: ../tag.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr "指向 %s 的永久链接"
+
+#: ../category.php:10
+msgid "Category name："
+msgstr "分类名称："
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "这篇文章有密码保护。请输入密码查看评论。"
+
+#: ../comments.php:38
+msgid "Comments: "
+msgstr "评论："
+
+#: ../comments.php:60
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: ../comments.php:68
+msgid "trackbacks"
+msgstr "引用"
+
+#: ../comments.php:68
+msgid "trackbacks(closed)"
+msgstr "引用(关闭)"
+
+#: ../comments.php:73
+#, php-format
+msgid "%s from %s"
+msgstr "%s 来自 %s"
+
+#: ../content.php:27
+msgid "Read More"
+msgstr "继续阅读"
+
+#: ../footer.php:11
+msgid "Theme "
+msgstr "主题 "
+
+#: ../footer.php:11
+msgid "designed by Axiu"
+msgstr "由 Axiu 设计"
+
+#: ../footer.php:11
+msgid " By Axiu."
+msgstr " 由 Axiu 设计."
+
+#: ../functions.php:7
+msgid "Primary Navigation"
+msgstr "主导航栏"
+
+#: ../functions.php:47
+msgid "&larr; Previous"
+msgstr "&larr; 上一页"
+
+#: ../functions.php:48
+msgid "Next &rarr;"
+msgstr "下一页 &rarr;"
+
+#: ../functions.php:125
+msgid "Left Sidebar"
+msgstr "左侧边栏"
+
+#: ../functions.php:127
+msgid "Additional sidebar that appears on the left."
+msgstr "左侧边栏（附加）"
+
+#: ../functions.php:134
+msgid "Right Sidebar"
+msgstr "右侧边栏"
+
+#: ../functions.php:136
+msgid "Main sidebar that appears on the right."
+msgstr "右侧边栏（主要）"
+
+#: ../header.php:21
+#, php-format
+msgid "Page %s"
+msgstr "分页 %s"
+
+#: ../search.php:10
+#, php-format
+msgid " Search result: %s"
+msgstr "搜索结果: %s"
+
+#: ../single.php:10
+msgid "Home"
+msgstr "首页"
+
+#: ../single.php:13
+msgid "All categories"
+msgstr "所有分类"
+
+#: ../single.php:17
+msgid "the post"
+msgstr "正文"
+
+#: ../tag.php:10
+msgid "Tag name："
+msgstr "标签名称："
+
+#~ msgid "Error 404 - Not Found"
+#~ msgstr "错误404 - 找不到相关内容"
+
+#~ msgid "Blog Archives"
+#~ msgstr "文章存档"
+
+#~ msgid "tags :"
+#~ msgstr "标签:"
+
+#~ msgid "Not Found"
+#~ msgstr "没有找到"
+
+#~ msgid " Archive"
+#~ msgstr " 存档"
+
+#~ msgid "Pingbacks "
+#~ msgstr "引用 "
+
+#~ msgid "quote"
+#~ msgstr "引用"
+
+#~ msgid "read more"
+#~ msgstr "继续阅读"
+
+#~ msgid "video"
+#~ msgstr "视频"
+
+#~ msgid " Edit"
+#~ msgstr " 编辑"
+
+#~ msgid "&raquo; Read more"
+#~ msgstr "继续阅读"
+
+#~ msgid "Powered by "
+#~ msgstr "基于 "
+
+#~ msgid "Primary Widget Area"
+#~ msgstr "边栏小工具区"
+
+#~ msgid "The primary widget area"
+#~ msgstr "边栏小工具区"
+
+#~ msgid "First Footer Widget Area"
+#~ msgstr "第一底部小工具区"
+
+#~ msgid "The first footer widget area"
+#~ msgstr "第1底部小工具区"
+
+#~ msgid "Second Footer Widget Area"
+#~ msgstr "第二底部小工具区"
+
+#~ msgid "The second footer widget area"
+#~ msgstr "第2底部小工具区"
+
+#~ msgid "Third Footer Widget Area"
+#~ msgstr "第三底部小工具区"
+
+#~ msgid "The third footer widget area"
+#~ msgstr "第3底部小工具区"
+
+#~ msgid "Fourth Footer Widget Area"
+#~ msgstr "第四底部小工具区"
+
+#~ msgid "The fourth footer widget area"
+#~ msgstr "第4底部小工具区"
+
+#~ msgid "First Page"
+#~ msgstr "第一页"
+
+#~ msgid "First"
+#~ msgstr "第一页"
+
+#~ msgid "previous"
+#~ msgstr "上一页"
+
+#~ msgid "next"
+#~ msgstr "下一页"
+
+#~ msgid "Last Page"
+#~ msgstr "最后一页"
+
+#~ msgid "Last"
+#~ msgstr "最后一页"
+
+#~ msgid "Name"
+#~ msgstr "名字"
+
+#~ msgid "Email"
+#~ msgstr "电子邮件"
+
+#~ msgid "Website"
+#~ msgstr "网站"
+
+#~ msgid "(Edit)"
+#~ msgstr "(编辑)"
+
+#~ msgid "Logo image"
+#~ msgstr "Logo图片"
+
+#~ msgid ""
+#~ "Put your logo image address here (max size: 280px*100px). If empty, "
+#~ "display blog title with text."
+#~ msgstr "请输入你的logo图片地址(最大支持280px*100px)。留空则显示文字。"
+
+#~ msgid "Disable the site description"
+#~ msgstr "隐藏站点描述？"
+
+#~ msgid "Disabling this will remove the site description."
+#~ msgstr "勾选，会把站点标题下面的描述隐藏。"
+
+#~ msgid "Archieve Excerpt?"
+#~ msgstr "存档页显示摘要吗？"
+
+#~ msgid "If the archive pages to display excerpt of post, check."
+#~ msgstr "勾选，存档页（包括分类和标签页）文章会显示摘要。"
+
+#~ msgid "Home Excerpt?"
+#~ msgstr "主页显示摘要吗？"
+
+#~ msgid "If the home page to display excerpt of post, check."
+#~ msgstr "勾选，主页文章会显示摘要。"
+
+#~ msgid "Theme Options"
+#~ msgstr "主题选项"
+
+#~ msgid "%1$s Theme Options"
+#~ msgstr "%1$s 主题选项"
+
+#~ msgid "Options saved"
+#~ msgstr "选项已更新"
+
+#~ msgid "Save Options"
+#~ msgstr "更新选项"
+
+#~ msgid "No posts found. Try a different search?"
+#~ msgstr "没有找到要搜的内容，试试搜索其他的?"
+
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "Archive"
+#~ msgstr "存档"
+
+#~ msgid "Meta"
+#~ msgstr "Meta"
+
+#~ msgid "Posted on "
+#~ msgstr "撰写于 "
+
+#~ msgid "&raquo; Tags:"
+#~ msgstr "&raquo; 标签:"
+
+#~ msgid "Post about "
+#~ msgstr "文章贴有标签"
+
+#~ msgid "Comments (Close)"
+#~ msgstr "评论(关闭)"
+
+#~ msgid "Off"
+#~ msgstr "关闭"
+
+#~ msgid "&raquo; Continue Reading"
+#~ msgstr "&raquo; 阅读全文"
+
+#~ msgid "TOP"
+#~ msgstr "顶部"
