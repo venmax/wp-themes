@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Summ\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-07 10:01+0800\n"
+"PO-Revision-Date: 2012-05-07 10:01+0800\n"
+"Last-Translator: Axiu <maxlev3@gmail.com>\n"
+"Language-Team: Axiu <maxlev3@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../functions.php:1
+msgid "Primary Navigation"
+msgstr "主导航栏"
+
+#: ../functions.php:1
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 于 %2$s"
+
+#: ../functions.php:1
+msgid "Logo image"
+msgstr "Logo图片"
+
+#: ../functions.php:1
+msgid "Put your logo image address here (max size: 280px*100px). If empty, display blog title with text."
+msgstr "把你的logo图片地址放这里（280px*100px最大）。留空则显示文字。"
+
+#: ../functions.php:1
+msgid "RSS URL"
+msgstr "RSS地址"
+
+#: ../functions.php:1
+msgid "Put your full rss subscribe address here.(with http://). If empty, auto-set system defaults."
+msgstr "写上你的rss地址（带上http://）。留空则用默认的。"
+
+#: ../functions.php:1
+msgid "Excerpt?"
+msgstr "显示摘要？"
+
+#: ../functions.php:1
+msgid "If the home page and archive pages to display excerpt of post, check."
+msgstr "勾选，则首页和存档页显示摘要"
+
+#: ../functions.php:1
+msgid "Disable the site description"
+msgstr "禁止站点描述"
+
+#: ../functions.php:1
+msgid "Disabling this will remove the site description."
+msgstr "禁止此项将移除站点描述"
+
+#: ../functions.php:1
+msgid "Theme Options"
+msgstr "主题设置"
+
+#: ../functions.php:1
+#, php-format
+msgid "%1$s Theme Options"
+msgstr "%1$s 主题设置"
+
+#: ../functions.php:1
+msgid "Options saved"
+msgstr "设置已保存"
+
+#: ../functions.php:1
+msgid "Save Options"
+msgstr "保存设置"
+
+#: ../404.php:5
+msgid "Error 404 - Not Found"
+msgstr "没有找到"
+
+#: ../404.php:8
+msgid "Archives"
+msgstr "存档"
+
+#: ../index.php:1
+msgid "Category"
+msgstr "分类"
+
+#: ../index.php:1
+msgid " Edit"
+msgstr " 编辑"
+
+#: ../index.php:1
+msgid "&raquo; Read more..."
+msgstr "&raquo; 继续阅读"
+
+#: ../index.php:1
+msgid "Read More..."
+msgstr "更多..."
+
+#: ../index.php:1
+#: ../page.php:9
+#: ../single.php:11
+msgid "Pages"
+msgstr "分页"
+
+#: ../index.php:1
+msgid "Older Entries"
+msgstr "旧文章"
+
+#: ../index.php:1
+msgid "Newer Entries"
+msgstr "新文章"
+
+#: ../index.php:1
+#: ../page.php:15
+msgid "Not Found"
+msgstr "没有找到"
+
+#: ../index.php:1
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "对不起，你找的东西不在这。"
+
+#: ../header.php:1
+#: ../single.php:4
+msgid "Home"
+msgstr "主页"
+
+#: ../comments.php:38
+msgid "Comments"
+msgstr "评论"
+
+#: ../comments.php:38
+msgid "Comments (Close)"
+msgstr "评论（已关闭）"
+
+#: ../comments.php:53
+msgid "Comments are closed."
+msgstr "评论已关闭."
+
+#: ../comments.php:64
+msgid "Trackbacks"
+msgstr "引用通告"
+
+#: ../comments.php:64
+msgid "Trackbacks (Close)"
+msgstr "引用（已关闭）"
+
+#: ../comments.php:67
+msgid "Listed below are links to weblogs that reference"
+msgstr "引用本页的文章"
+
+#: ../comments.php:67
+#, php-format
+msgid " %s"
+msgstr " %s"
+
+#: ../comments.php:74
+#, php-format
+msgid "%s from %s"
+msgstr "%s 来自 %s"
+
+#: ../single.php:4
+msgid "previous"
+msgstr "上一篇"
+
+#: ../single.php:4
+msgid "next"
+msgstr "下一篇"
+
+#: ../single.php:12
+msgid "Edit"
+msgstr "编辑"
+
+#: ../footer.php:2
+msgid "TOP"
+msgstr "顶部"
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr "搜索"
+
+#~ msgid "&laquo; Newer"
+#~ msgstr "&laquo; 较新文章"
+
+#~ msgid "Older &raquo;"
+#~ msgstr "较旧文章 &raquo;"
