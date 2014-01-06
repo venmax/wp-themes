@@ -25,6 +25,7 @@
 			<?php }  ?>
 			<div class="indexentry">
 				<?php the_content(''); ?>
+				<div class="clear"></div>
 				<div><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'ming' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php _e('Read More','ming');?></a></div>
 			</div>
 			<div class="clear"></div>

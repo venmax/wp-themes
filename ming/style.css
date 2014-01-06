@@ -1,7 +1,7 @@
 /*
 Theme Name:ming
 Theme URI:http://axiu.me/learning_notes/wordpress_theme_ming/
-Version:1.0.0
+Version:1.0.1
 Author:Axiu
 Author URI:http://axiu.me
 Description: This is a responsive website theme with classic design. You can use the two widget areas in left and right, and your website will show the left when screen > 1000px.
@@ -9,16 +9,11 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, white, light, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, translation-ready
 
+ming WordPress theme uses Font Awesome(by Dave Gandy - http://fontawesome.io), licensed under SIL OFL 1.1
+
+ming WordPress theme, Copyright: (c) 2014 Axiu
+ming WordPress theme is licensed under the GPL.
 */
-#return_top{
-position: fixed;
-bottom: 1em;
-right: 2.5%;
-background:#555;
-background: rgba(102, 102, 102, 0.63);
-color: #fff;
-padding: 1.5em 2.5em;
-}
 /* reset */
 	body {
 		margin: 0;

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MxS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-30 14:06+0800\n"
-"PO-Revision-Date: 2013-12-30 14:06+0800\n"
+"POT-Creation-Date: 2014-01-05 11:55+0800\n"
+"PO-Revision-Date: 2014-01-05 11:55+0800\n"
 "Last-Translator: axiu <axiublog@gmail.com>\n"
 "Language-Team: axiu <maxlev3@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,7 @@ msgstr ""
 #: ../archive.php:12
 #: ../category.php:15
 #: ../content.php:7
+#: ../content.php:29
 #: ../image.php:17
 #: ../search.php:13
 #: ../tag.php:15
@@ -56,7 +57,7 @@ msgstr "引用(关闭)"
 msgid "%s from %s"
 msgstr "%s 来自 %s"
 
-#: ../content.php:27
+#: ../content.php:29
 msgid "Read More"
 msgstr "继续阅读"
 
@@ -72,38 +73,38 @@ msgstr "由 Axiu 设计"
 msgid " By Axiu."
 msgstr " 由 Axiu 设计."
 
-#: ../functions.php:7
+#: ../functions.php:25
 msgid "Primary Navigation"
 msgstr "主导航栏"
 
-#: ../functions.php:47
+#: ../functions.php:68
 msgid "&larr; Previous"
 msgstr "&larr; 上一页"
 
-#: ../functions.php:48
+#: ../functions.php:69
 msgid "Next &rarr;"
 msgstr "下一页 &rarr;"
 
-#: ../functions.php:125
-msgid "Left Sidebar"
-msgstr "左侧边栏"
-
-#: ../functions.php:127
-msgid "Additional sidebar that appears on the left."
-msgstr "左侧边栏（附加）"
-
-#: ../functions.php:134
-msgid "Right Sidebar"
-msgstr "右侧边栏"
-
-#: ../functions.php:136
-msgid "Main sidebar that appears on the right."
-msgstr "右侧边栏（主要）"
-
-#: ../header.php:21
+#: ../functions.php:154
 #, php-format
 msgid "Page %s"
 msgstr "分页 %s"
+
+#: ../functions.php:164
+msgid "Left Sidebar"
+msgstr "左侧边栏"
+
+#: ../functions.php:166
+msgid "Additional sidebar that appears on the left."
+msgstr "左侧边栏（附加）"
+
+#: ../functions.php:173
+msgid "Right Sidebar"
+msgstr "右侧边栏"
+
+#: ../functions.php:175
+msgid "Main sidebar that appears on the right."
+msgstr "右侧边栏（主要）"
 
 #: ../search.php:10
 #, php-format

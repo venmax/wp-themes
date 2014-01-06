@@ -7,7 +7,7 @@ get_header(); ?>
 <div id="content">
 	<div class="container">
 		<div id="main">
-			<div id="breadcrumb" itemprop="breadcrumb"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php _e( 'Home', 'ming' ); ?></a> / <?php the_category(' | ') ?>
+			<div id="breadcrumb" itemprop="breadcrumb"><a href="<?php echo esc_url( home_url() ); ?>" rel="nofollow"><?php _e( 'Home', 'ming' ); ?></a> / <?php the_category(' | ') ?>
 			<div class="tria-more"><span class="icon"></span>
 			<li class="more-cat">
 				<span><?php _e( 'All categories', 'ming' ); ?></span>
@@ -40,11 +40,12 @@ get_header(); ?>
 					<div class="body">
 						<?php the_content(); ?>
 					</div>
+					<div class="clear"></div>
 					<?php wp_link_pages(); ?>
 				<?php endwhile;endif; ?>
-
 				</div>
-<?php if (has_tag()) {the_tags('  <span class="tags">', ' , ', '</span>'); } ?>
+				<div class="clear"></div>
+				<?php if (has_tag()) {the_tags('  <span class="tags">', ' , ', '</span>'); } ?>
 				<div class="flip">
 					<?php previous_post_link('<div class="prevpost">%link</div>'); ?>
 					<?php next_post_link('<div class="nextpost">%link</div>'); ?>
