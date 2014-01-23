@@ -1,6 +1,6 @@
 /*Global layouts */
 body {
-	background:#F4F4F4;
+	background: #fafafa;
 }
 #content {
 	-webkit-box-shadow: #CCC 0px 5px 10px;
@@ -23,7 +23,7 @@ body {
 	border-right-color: #fff;
 }
 a {
-	color:#76B2C4;
+	color: #76B2C4;
 }
 a:hover{
 	color:#C30;
@@ -42,7 +42,7 @@ blockquote {
 code{
   color: #100;
   background:#f9f9f9;
-  border-color: 1px solid silver;
+  border-color: silver;
 }
 table {
 	background-color: #fff;
@@ -63,21 +63,22 @@ table td{
 }
 .siteName a{
 	border-right-color: #cfcfcf;
+	color: #111;
 }
 #header .description {
 	color:#666;
 	text-shadow: 1px 1px 1px #bbb;
 }
 #globalNavi{
-	background-color:#E3E3E3;
+	background-color:#333;
 	border-color:#fff;
+	border-bottom: 4px solid #518EA0;
 }
 #globalNavi ul li.current_page_item a,#globalNavi ul li.current_page_item li a:hover,#globalNavi ul li a:hover {
-	color:#000;
+	color:#fff;
 }
 #globalNavi ul li.current_page_item li a,#globalNavi ul li a {
 	color:#777;
-    text-shadow: 1px 1px 0 white, 2px 3px 0 #CCCCC2;
 }
 
 #globalNavi a {
@@ -95,14 +96,16 @@ table td{
 
 #globalNavi li:hover > a,
 #globalNavi ul ul :hover > a {
-	color: #000;
+	color: #111;
 }
 #searchform div{
 	border-color:#BBBBB6;
 }
 #searchform #searchsubmit{
 	border-color:#EEE;
-	background:#E1E1E1;
+	background: #333;
+	border-left: none;
+	color: #ddd;
 }
 
 #searchform #searchsubmit:active{
@@ -111,9 +114,8 @@ table td{
 }
 
 #globalNavi #searchform input#s{
-	color:#222;
-	background: #FFF;
-	border-color:#EEE;
+	color: #eee;
+	background: #444;
 }
 /*info*/
 /*textbody and related*/
@@ -148,7 +150,10 @@ table td{
 	color:#000;
 }
 #content .sticky .cmtinfo{
-	background:#76B2C4;
+	background: #76B2C4;
+}
+#content .sticky .cmtinfo:before{
+	border-color: transparent #76B2C4;
 }
 #content .sticky .cmtinfo a{
 	color:#eee;
@@ -248,13 +253,14 @@ textarea:hover {
 /*sidebar*/
 #sidebar a{
 	color:#767575;
+	white-space: normal;
+	word-wrap: break-word;
 }
 #sidebar a:hover{
 	color:#3E3E3E;
 }
 #sidebar span,.widgettitle{
 	color:#333;
-	background:#f6f6f6;
 	border-top-color:#DDDDD6;
 	border-bottom-color:#DDDDD6;
 	text-shadow: 1px 1px 0 #BABABA;

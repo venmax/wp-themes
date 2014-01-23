@@ -1,10 +1,10 @@
 /*Global layouts */
 body {
-	background:#F4F4F4;
+	background: #444;
 }
 #content {
-	-webkit-box-shadow: #CCC 0px 5px 10px;
-	box-shadow: #CCC 0px 5px 10px;
+	-webkit-box-shadow: #000 0px 5px 10px;
+	box-shadow: #000 0px 5px 10px;
 	background:#efefef;
 }
 #footer{
@@ -24,7 +24,7 @@ body {
 	border-right-color: #fff;
 }
 a {
-	color:#76B2C4;
+	color: #76B2C4;
 }
 a:hover{
 	color:#C30;
@@ -60,28 +60,28 @@ table td{
 }
 /* header */
 #header .siteName{
-	text-shadow: 1px 2px 0 #FCF9EE, 1px 4px 0 #D5D5D5;
+	text-shadow: 1px 2px 0 #202020, 1px 3px 0 #474747;
 }
 .siteName a{
 	border-right-color: #cfcfcf;
 }
 #header .description {
-	color:#666;
-	text-shadow: 1px 1px 1px #bbb;
+	color: #7C7C7C;
+	text-shadow: 1px 1px 1px #272727;
 }
 #globalNavi{
-	background-color:#3e3e3e;
+	background-color:#333;
 	border-color:#aaa;
+	border-bottom: 4px solid #76B2C4;
 }
 #globalNavi ul li.current_page_item a,#globalNavi ul li a:hover {
-	color:#888;
+	color:#fff;
 }
 #globalNavi a {
 	color: #333;
 }
 #globalNavi ul li a{
 	color:#ddd;
-    text-shadow: 1px 1px 0 #555, 2px 3px 0 #111;
 }
 #globalNavi li li a,
 #globalNavi ul li.current_page_item li a{
@@ -101,14 +101,14 @@ table td{
 #globalNavi li:hover > a,
 #globalNavi ul li.current_page_item li a:hover,
 #globalNavi ul ul :hover > a {
-	color: #000;
+	color: #111;
 }
 #searchform div{
 	border-color:#BBBBB6;
 }
 #searchform #searchsubmit{
 	border-color:#EEE;
-	background:#E1E1E1;
+	background: #333;
 }
 
 #searchform #searchsubmit:active{
@@ -117,8 +117,8 @@ table td{
 }
 
 #globalNavi #searchform input#s{
-	color:#222;
-	background: #FFF;
+	color: #ddd;
+	background: #44565A;
 	border-color:#EEE;
 }
 /*info*/
@@ -137,7 +137,6 @@ table td{
 }
 .entry-title a{
 	color:#000;
-	background: #fff;
 }
 
 .home .thumb{
@@ -156,6 +155,9 @@ table td{
 #content .sticky .cmtinfo{
 	background:#76B2C4;
 }
+#content .sticky .cmtinfo:before{
+	border-color:transparent #76B2C4;
+}
 #content .sticky .cmtinfo a{
 	color:#eee;
 }
@@ -171,13 +173,17 @@ table td{
 color: #333;
 }
 .dateinfo{
-	color: #333;
+	color: #A2A2A2;
 }
 #content .cmtinfo{
 	color:#ccc;
 	background: #33333a;
 	border-right-color:#CCCCC5;
 	border-bottom-color: #CCCCC5;
+}
+#content .cmtinfo:before{
+    border-color: transparent #333;
+	
 }
 #content .cmtinfo a{
 	color:#ddd;

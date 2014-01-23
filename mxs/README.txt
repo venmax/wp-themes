@@ -4,6 +4,9 @@
 2.Large number of categories on the single post page it can only show two lines of categories. 
 
 == Changelog ==
+Version: 1.2.9
+Fixed the pagination display issue.
+
 Version: 1.2.7
 Add copyright and license information.
 Custom-header function changed.

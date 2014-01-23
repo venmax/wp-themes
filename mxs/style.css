@@ -2,7 +2,7 @@
 Theme Name: MxS
 Theme URI:http://axiu.me/learning_notes/theme_mxs/
 Description: A theme in silver and white,5 widgets/thumbnail/custom-menu supported, multi color style supported, custom header-image and custom background available, no plugins required, used for WordPress 3.0+.
-Version: 1.2.7
+Version: 1.2.9
 Author: Axiu
 Author URI: http://axiu.me/
 License: GNU General Public License
@@ -67,16 +67,12 @@ h1, h2, h3, h4, h5, h6 {
 	padding:0 15px 20px 20px;
 	border-right-width: 1px;
 	border-right-style:solid;
-	border-top-width: 1px;
-	border-top-style:solid;
 }
 #sidebar {
 	width: 313px;
 	float: left;
 	clear: right;
 	padding-top:15px;
-	border-top-width: 1px;
-	border-top-style:solid;
 	border-left-width: 1px;
 	border-left-style:solid;
 	border-right-width: 1px;
@@ -116,7 +112,7 @@ code{
 	border-width:1px;
 	border-style:solid;
 	margin: 0 0 1.5em 0;
-	padding:5px;
+	padding: 1px 2px;
 	overflow: auto;
 }
 table {
@@ -124,6 +120,8 @@ table {
 	border-width:1px;
 	border-style:solid;
 	background-color: #fff;
+	border-color: #ddd;
+	max-width: 100%;
 }
 table th{
 	background-color:#eee;	
@@ -133,6 +131,7 @@ table td{
 	border-right-style:solid;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
+	padding:5px 8px;
 }
 em {
 	font-weight: bold;
@@ -179,17 +178,14 @@ ol li{
 	border-width:1px;
 	border-style:solid;
 	overflow: hidden;
-	border-radius:4px 4px 0 0;
 }
 #globalNavi{
-	border-top-left-radius: 6px 6px;
-	border-top-right-radius: 6px 6px;
-	border-width:1px;
-	border-style:solid;
 	height:50px;
-	width: 996px;
-	overflow:hidden
-	}
+	width: 1000px;
+	padding: 0;
+	margin: 0 auto 25px;
+	position: relative;
+}
 	
 #globalNavi ul {
 	margin: 0;
@@ -222,26 +218,27 @@ ol li{
 #globalNavi ul ul {
 	display: none;
 	position: absolute;
-	top: 52px;
+	top: 51px;
 	float: left;
-	width: 180px;
 	z-index: 99999;
 	padding-left:0;
+	width: auto;
 }
 #globalNavi ul ul li {
 	min-width: 180px;
 	margin: 0;
 	height:33px;
+	white-space: nowrap;
+	display: block;
+	float: none;
 }
 #globalNavi ul ul ul {
 	left: 100%;
-	top:-33px;
-	position:relative;
+	top: 0px;
 }
 #globalNavi ul ul a {
 	line-height: 1em;
 	padding: 10px;
-	width: 160px;
 	height: auto;
 	text-shadow:none;
 }
@@ -252,16 +249,23 @@ ol li{
 
 
 #globalNavi #searchform{
-	padding: 12px 7px;
 	float:right;
-	margin-right:10px;
-	border-radius: 6px;
+	position: relative;
+}
+#globalNavi #searchform:before{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: -6px;
+	border-width: 6px 6px 0 0;
+	border-style: solid;
+	border-color: transparent #589CB1;
+	display: block;
+	width: 0;
 }
 #searchform div{
-	border-width: 1px;
-	border-style:solid;
-	border-radius: 6px;
-	background: white;
+	background: #333;
+	height: 50px;
 }
 #main #searchform div{
 	border:none
@@ -269,21 +273,21 @@ ol li{
 #searchform #searchsubmit{
 	cursor: pointer;
 	width:55px;
-	height:25px;
-	margin-left:1px;
-	border-radius: 6px;
+	height: 50px;
+	border: none;
+	color: #ddd;
 }
 #globalNavi #searchform .screen-reader-text{
 	display:none;
 }
 #globalNavi #searchform input#s{
 	float:left;
-	height: 17px;
+	height: 44px;
 	padding: 3px 10px;
 	width: 110px;
-	border-radius: 6px;
+	border: none;
+	position: relative;
 }
-
 /*info*/
 /*textbody and related*/
 #content .topicPath{
@@ -307,14 +311,10 @@ ol li{
 	margin:40px 0 0 0;
 }
 .home .thumb{
-	border-width: 5px;
-	border-style:solid;
 	float:left
 }
 .thumb a{
-	border-width: 1px;
-	border-style:solid;
-	padding:1px;
+	padding: 3px 10px 10px 0;
 	display: block;
 }
 .single h1.entry-title{
@@ -383,14 +383,24 @@ padding: 3px 7px 3px 3px;
 	position:absolute;
 	right:34%;
 	margin-top:-35px;
-	font-size:22px;
 	border-right-width: 1px;
 	border-right-style:solid;
 	border-bottom-width: 1px;
 	border-bottom-style:solid;
-	border-radius: 6px 6px 6px 0;
-	padding: 4px 7px;
+	padding: 5px 8px;
 	z-index:1;
+	border-radius: 3px;
+}
+#content .cmtinfo:before{
+content: "";
+position: absolute;
+bottom: 5px;
+left: -10px;
+border-width: 7px 10px 7px 0;
+border-style: solid;
+border-color: transparent #F2F2F2;
+display: block;
+width: 0;
 }
 #content .post  .infobottom {
 	font-style: italic;
@@ -645,9 +655,34 @@ textarea {
 .widget-container div{
 	padding:10px 15px;
 }
+.widget-container #wp-calendar{
+	width:100%;
+	border-color:#ddd;
+	padding:1px;
+}
+.widget-container #wp-calendar tr{
+	padding:5px;
+	text-align:center;
+}
+.widget-container #wp-calendar td{
+	padding:5px;
+	text-align:center;
+}
 .widget_search #searchform div{
 	padding:20px 0 20px 20px;
 	border:none
+;
+	background: none;
+}
+.widget_search #searchform #searchsubmit{
+	margin-left:-6px;
+	border-radius:0;
+	height: 27px;
+	border:1px solid #aaa;
+	border-left:none;
+}
+.widget_search #searchform input#s{
+	height:20px;
 }
 #sidebar .widget-container ul li{
 	padding:4px 0;
@@ -768,3 +803,5 @@ textarea {
 	padding: 0 4px 5px;
 	margin: 0;
 }
+
+
