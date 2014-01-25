@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MxS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-05 11:55+0800\n"
-"PO-Revision-Date: 2014-01-05 11:55+0800\n"
+"POT-Creation-Date: 2014-01-23 09:23+0800\n"
+"PO-Revision-Date: 2014-01-23 09:23+0800\n"
 "Last-Translator: axiu <axiublog@gmail.com>\n"
 "Language-Team: axiu <maxlev3@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -110,6 +110,14 @@ msgstr "右侧边栏（主要）"
 #, php-format
 msgid " Search result: %s"
 msgstr "搜索结果: %s"
+
+#: ../sidebar-left.php:11
+msgid "Meta"
+msgstr "功能"
+
+#: ../sidebar.php:10
+msgid "Recent Posts"
+msgstr "最新文章"
 
 #: ../single.php:10
 msgid "Home"
@@ -269,9 +277,6 @@ msgstr "标签名称："
 
 #~ msgid "Archive"
 #~ msgstr "存档"
-
-#~ msgid "Meta"
-#~ msgstr "Meta"
 
 #~ msgid "Posted on "
 #~ msgstr "撰写于 "

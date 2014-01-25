@@ -20,20 +20,19 @@
 			</a>
 		</div>
 		<nav id="topnav">
-				<ul>
-					<?php wp_nav_menu( array( 'show_home' => 'Home','container' => ' ','items_wrap' =>'%3$s', 'theme_location' => 'primary') ); ?>
-				</ul>
+			<span class="toggle"></span>
+			<ul>
+				<?php wp_nav_menu( array( 'show_home' => 'Home','container' => ' ','items_wrap' =>'%3$s', 'theme_location' => 'primary') ); ?>
+			</ul>
 		</nav><!-- #catnavi -->
 
 <div class="search" id="search-container">
-          <div class="search-inner">
-            <form action="<?php echo esc_url( home_url('/') ); ?>" id="search" name="search">
-            <div class="left"></div>
-              <input id="q" name="s" placeholder="Search" speech="" type="text" x-webkit-speech="">
-            <div class="right"></div>
-			  <div id="search-btn"><input type="submit" id="gs" value="Search"></div>
-            </form>
-          </div>
+		<span class="search-toggle"></span>
+        <div class="search-inner hide">
+			<form action="<?php echo esc_url( home_url('/') ); ?>" id="search" name="search">
+					<input id="q" name="s" placeholder="Search" speech="" type="text" x-webkit-speech="">
+			</form>
+		</div>
 </div>
-		<div class="clear"></div>
+<div class="clear"></div>
 </div>
